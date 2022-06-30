@@ -5,3 +5,4 @@ const btnCalcular = document.querySelector("#btnCalcular")
 const montoFinal = document.querySelector("#montoFinal")
 const btnHistorial = document.querySelector("#btnHistorial")
 const historial = []
+const cajero = document.querySelector("#cajero")

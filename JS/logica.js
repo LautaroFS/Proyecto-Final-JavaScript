@@ -1,3 +1,6 @@
+const nombreCajero = prompt("Ingrese el nombre del cajero")
+cajeros.find(element => element == nombreCajero) ? confirm("¡Ingreso correctamente!") : alert("¡Nombre incorrecto! Ingrese nuevamente por favor.")
+
 const calcularOperacion = new CalculadorDeOperacion (tipoOp, plazoOp, montoOpe)
 
 const añadirTO = ()=> {

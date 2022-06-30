@@ -12,3 +12,5 @@ const montoOpe = [{"monto": "10000", "factor": 10000},
                   {"monto": "30000", "factor": 30000},
                   {"monto": "40000", "factor": 40000},
                   {"monto": "50000", "factor": 50000},]
+
+const cajeros = ["Luis","Lautaro","Emiliano","Sofia"]
