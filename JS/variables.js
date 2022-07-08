@@ -6,3 +6,7 @@ const montoFinal = document.querySelector("#montoFinal")
 const btnHistorial = document.querySelector("#btnHistorial")
 const historial = []
 const cajero = document.querySelector("#cajero")
+const URL = `JS/baseDeDatos.json`
+const moneda = []
+const plazo = []
+const monto = []
