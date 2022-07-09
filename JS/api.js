@@ -1,12 +1,18 @@
 const obtencionDeDatos = (URL) => { 
-    debugger
     fetch(URL)
     .then(response => response.json())
     .then(data => {
-        datos = data
-        datos.array.forEach(elmentos => {
-            
-        });
-
+     data.tipoOp.forEach(element => {
+        tipoOp.push(element)
+     });
+     data.plazoOp.forEach(element => {
+        plazoOp.push(element)
+     });
+     data.montoOpe.forEach(element => {
+        montoOpe.push(element)
+     });
+        
+     comenzar()
     })
 }
+obtencionDeDatos(URL)

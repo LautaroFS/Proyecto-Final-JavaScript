@@ -1,6 +1,9 @@
-tipoDeOperacion.innerHTML = añadirTO()
+function comenzar(){
+  tipoDeOperacion.innerHTML = añadirTO()
 plazoDeOperacion.innerHTML = plazoOpe()
-montoDeOperacion.innerHTML = montoOp()
+montoDeOperacion.innerHTML = montoOp()  
+}
+
 btnCalcular.addEventListener("click", () => {
     calculoDeOperacion()
     
